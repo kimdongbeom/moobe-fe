@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46" height="61" viewBox="0 0 46 61">
+    <defs>
+        <filter id="prefix__a" width="137.5%" height="250%" x="-18.7%" y="-75%" filterUnits="objectBoundingBox">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1.2"/>
+        </filter>
+        <filter id="prefix__b" width="132.1%" height="126.8%" x="-16.1%" y="-9.6%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+        </filter>
+        <linearGradient id="prefix__d" x1="30.536%" x2="74.3%" y1="13.956%" y2="85.782%">
+            <stop offset="0%" stop-color="#FF0090"/>
+            <stop offset="100%" stop-color="red"/>
+        </linearGradient>
+        <path id="prefix__c" d="M33.162 43.152c-2.22 2.343-4.59 4.477-6.962 6.366-.832.662-1.606 1.247-2.303 1.75-.424.307-.734.521-.909.638-.731.488-1.685.488-2.416 0-.175-.117-.485-.33-.91-.638-.696-.503-1.47-1.088-2.302-1.75-2.372-1.89-4.743-4.023-6.962-6.366C3.926 36.32 0 29.123 0 21.78 0 9.751 9.751 0 21.78 0c12.029 0 21.78 9.751 21.78 21.78 0 7.343-3.926 14.54-10.398 21.372z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-opacity="0" d="M0 0H46V61H0z"/>
+        <g transform="translate(1 1)">
+            <ellipse cx="21.6" cy="55.2" fill="#000" filter="url(#prefix__a)" opacity=".2" rx="9.6" ry="2.4"/>
+            <use fill="#000" filter="url(#prefix__b)" xlink:href="#prefix__c"/>
+            <use fill="url(#prefix__d)" xlink:href="#prefix__c"/>
+            <circle cx="21.49" cy="21.49" r="6.97" fill="#FFF"/>
+        </g>
+    </g>
+</svg>

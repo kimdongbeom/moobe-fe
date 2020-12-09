@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="32" viewBox="0 0 30 32">
+    <defs>
+        <linearGradient id="prefix__c" x1="21.972%" x2="84.992%" y1="13.956%" y2="85.782%">
+            <stop offset="0%" stop-color="#FF0090"/>
+            <stop offset="100%" stop-color="red"/>
+        </linearGradient>
+        <filter id="prefix__a" width="179.5%" height="179.5%" x="-39.7%" y="-30.4%" filterUnits="objectBoundingBox">
+            <feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+        </filter>
+        <circle id="prefix__b" cx="10.692" cy="10.692" r="10.692"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" fill-opacity="0" d="M0 0H30V32H0z"/>
+        <g transform="translate(4 5)">
+            <use fill="#000" filter="url(#prefix__a)" xlink:href="#prefix__b"/>
+            <use fill="url(#prefix__c)" xlink:href="#prefix__b"/>
+            <circle cx="10.45" cy="10.45" r="3.85" fill="#FFF"/>
+        </g>
+    </g>
+</svg>
